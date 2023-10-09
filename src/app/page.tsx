@@ -1,7 +1,7 @@
-import Main from './components/Main'
+import App from './components/App'
 
 export default function HomePage() {
   return (
-    <Main/>
+    <App/>
   )
 }

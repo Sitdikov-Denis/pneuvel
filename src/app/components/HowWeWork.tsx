@@ -38,18 +38,20 @@ const howWeWorkArray = [{
 },
 ]
 
-const HowWeWork = () => {
+const HowWeWork = (props: {
+  className?: string
+}) => {
     return (
 <div className="flex flex-wrap mb-[30px] mt-[30px]">
       {howWeWorkArray.map((item, index) => (
-        <div key={index} className="flex mr-[25px] mb-[107px]">
+        <div key={index} className="flex mr-[25px] mb-[100px] text-[14px]">
           <div className="flex flex-col h-[80px]">
             <Image src={item.src} alt={item.alt} width={60} height={60} className="flex self-center" />
-            <p className="text-white w-[107px] mt-[10px]">{item.text}</p>
+            <p className="text-white w-[100px] mt-[10px]">{item.text}</p>
           </div>
           {index !== howWeWorkArray.length - 1 && (
-            <Image src="/images/icons/27.png" alt="arrow" width={50} height={25} className="ml-[25px] self-center" />
-          )}
+            <Image src="/images/icons/27.png" alt="arrow" width={50} height={25} className="self-center" />
+          )}cd
         </div>
       ))}
     </div>
