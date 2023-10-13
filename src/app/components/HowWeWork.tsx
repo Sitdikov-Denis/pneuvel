@@ -1,35 +1,35 @@
 const howWeWorkArray = [{
-    src: "/images/icons/15.png",
+    src: "images/15.png",
     id: 1,
     alt: "15",
     text: "Отправление заявки на разработку"
 },
 {
-    src: "/images/icons/16.png",
+    src: "images/16.png",
     id: 2,
     alt: "16",
     text: "Составление и согласование ТЗ по вашим данным"
 },
 {
-    src: "/images/icons/17.png",
+    src: "images/17.png",
     id: 3,
     alt: "17",
     text: "Предоставление чертежа на согласование"
 },
 {
-    src: "/images/icons/18.png",
+    src: "images/18.png",
     id: 4,
     alt: "18",
     text: "Предоставление КП"
 },
 {
-    src: "/images/icons/19.png",
+    src: "images/19.png",
     id: 5,
     alt: "19",
     text: "Частичная или полная оплата счёта (ориентируемся на договор)"
 },
 {
-    src: "/images/icons/20.png",
+    src: "images/20.png",
     id: 6,
     alt: "20",
     text: "Производство шкафа и его отгрузка"
@@ -48,7 +48,7 @@ const HowWeWork = (props: {
             <p className="text-white w-[100px] mt-[10px]">{item.text}</p>
           </div>
           {index !== howWeWorkArray.length - 1 && (
-            <img src="/images/icons/27.png" alt="arrow" width={50} height={25} className="self-center" />
+            <img src="/images/27.png" alt="arrow" width={50} height={25} className="self-center" />
           )}
         </div>
       ))}
