@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const howWeWorkArray = [{
     src: "/images/icons/15.png",
     id: 1,
@@ -46,12 +44,12 @@ const HowWeWork = (props: {
       {howWeWorkArray.map((item, index) => (
         <div key={index} className="flex mr-[25px] mb-[100px] text-[14px]">
           <div className="flex flex-col h-[80px]">
-            <Image src={item.src} alt={item.alt} width={60} height={60} className="flex self-center" />
+            <img src={item.src} alt={item.alt} width={60} height={60} className="flex self-center" />
             <p className="text-white w-[100px] mt-[10px]">{item.text}</p>
           </div>
           {index !== howWeWorkArray.length - 1 && (
-            <Image src="/images/icons/27.png" alt="arrow" width={50} height={25} className="self-center" />
-          )}cd
+            <img src="/images/icons/27.png" alt="arrow" width={50} height={25} className="self-center" />
+          )}
         </div>
       ))}
     </div>
