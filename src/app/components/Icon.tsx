@@ -1,5 +1,3 @@
-
-
 const Icon = (props: {
     src: string,
     alt: string
