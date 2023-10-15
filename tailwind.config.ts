@@ -16,7 +16,10 @@ const config: Config = {
       gridTemplateColumns: {
         '3max': 'repeat(3, max-content)',
         '6max': 'repeat(6, max-content)',
-      }
+      },
+      screens: {
+        'mobile': '320px',
+      },
     },
   },
   plugins: [],

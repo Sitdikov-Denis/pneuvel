@@ -4,10 +4,10 @@ const Product = (props: {
     text: string
 }) => {
     return (
-        <div className="flex flex-col border rounded-[10px] w-[400px] h-auto bg-white">
-            <img className="w-[400px] rounded-[10px]" src={props.src} alt={props.alt}/>
+        <div className="flex flex-col border rounded-[10px] max-w-[400px] h-auto bg-white">
+            <img className="rounded-[10px]" src={props.src} alt={props.alt} />
             <div className="bg-white rounded-[10px]">
-            <p className="text-black p-2 ">{props.text}</p>
+                <p className="text-black p-2 ">{props.text}</p>
             </div>
         </div>
     )
