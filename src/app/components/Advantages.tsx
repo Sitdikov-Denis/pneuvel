@@ -40,7 +40,7 @@ const Advantages = (props: {
     className?: string
 }) => {
     return (
-        <div className="flex flex-col mt-5">
+        <div className="flex flex-col mt-20">
             <p className="text-white text-center">НАШИ ПРЕИМУЩЕСТВА</p>
             <div className="flex flex-wrap mb-[30px] mt-[30px]">
                 {howWeWorkArray.map((item, index) => (
